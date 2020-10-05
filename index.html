@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ZXX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>police site</title>
+
+    <link rel="stylesheet" href="css/index.css">
+   
+    <script src="fontawesome-free-5.13.0-web/js/all.min.js"></script>
+    
+    
+    
+   
+</head>
+<body>
+    <div class="top_nav">
+        <div class="size_sec">
+            <a href="javascript:void(0);"  onclick="increaseText(5)">A++</a>
+            <a href="javascript:void(0);"  onclick="increaseText(1)">A+</a>
+            <a href="javascript:void(0);" onclick="originalsize(16);" >A</a>     
+            <a href="javascript:void(0);" onclick="decreaseText(1);" >A-</a>
+        </div>
+      <div class="login_sec">
+        <a href="index.html">Home </a><span>|</span>
+        <a href="contact.html">Contact </a><span>|</span>
+        <a href="#">Login</a>
+      </div>   
+    </div>
+
+    <div class="logo-and-image">
+        <img src="images/background-feeds.jpg" alt="logo image">
+    </div>   
+
+
+  <nav id="nav">
+        <div class="logo">
+            <a href="#index.html" class="heading-home">Home</a>
+        </div>
+         <label for="btn" class="icon">
+            <span><i class="fas fa-bars"></i></span>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul id="col">
+  
+          <li>
+                <label for="btn-1" class="show">Courses <span><i class="fas fa-caret-down"></i></span></label>
+                <a href="#">Courses <span><i class="fas fa-caret-down"></i></span></a>
+                <input type="checkbox" id="btn-1">
+                <ul>
+                    <li><a href="#">Induction Courses</a></li>
+                    <li><a href="#">In Service Courses</a></li>
+                    <li><a href="#">Syllabus</a></li>
+                    <li>
+                      <label for="btn-5" class="show drops">Seminars & Workshops <span><i class="fas fa-caret-down"></i></span></label>
+                      <a href="#">Seminars & Workshops <span><i class="fas fa-caret-down"></i></span></a>
+                      <input type="checkbox" id="btn-5">
+                      <ul>
+                          <li><a href="#">Induction Courses</a></li>
+                          <li><a href="#">In Service Courses</a></li>
+                          <li><a href="#">Syllabus</a></li>
+                      </ul>
+                    </li>
+                </ul>
+          </li>
+            <li>
+                <label for="btn-2" class="show">Activities <span><i class="fas fa-caret-down"></i></span></label>
+                <a href="#">Activities <span><i class="fas fa-caret-down"></i></span></a>
+                <input type="checkbox" id="btn-2">
+                <ul>
+                  <li><a href="#">Training Activities</a></li>
+                  <li><a href="#">Other Activities</a></li>
+                </ul>
+            </li>
+          <li>
+              <label for="btn-4" class="show">Campus <span><i class="fas fa-caret-down"></i></span></label>
+              <a href="#">Campus <span><i class="fas fa-caret-down"></i></span></a>
+              <input type="checkbox" id="btn-4">
+              <ul>
+                  <li><a href="#">Infrastructure</a></li>
+                  <li><a href="#">Faculty</a></li>
+              </ul>
+          </li>
+          <li><a href="#Notification">Notification</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">Tenders</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="#">Results</a></li>
+          <li><a href="gallery_page.html">Gallery</a></li>
+      </ul>
+  </nav>
+
+  <section class="sec"> 
+    <div class="Gallery_sec">
+        <div class="galleryContainer" id="home">
+            <div class="slideShowContainer">
+                <div id="playPause" onclick="playPauseSlides()"><i class="fas fa-play-circle"></i></div>
+                <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+                <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+                <div class="captionTextHolder"><p class="captionText slideTextFromTop"></p></div>
+                <div class="imageHolder"  >
+                    <img src="images/image1.jpeg" alt="image1">1366X768
+                    <p class="captionText">Caption Text-01</p>
+                </div>
+                <div class="imageHolder">
+                    <img src="images/image_2.jpeg" alt="image1">
+                    <p class="captionText">Caption Text-02</p>
+                </div>
+                <div class="imageHolder">
+                    <img src="images/image_3.jpeg" alt="image1">
+                    <p class="captionText">Caption Text-03</p>
+                </div>
+                <div class="imageHolder">
+                    <img src="images/image_4.jpeg" alt="image1">
+                    <p class="captionText">Caption Text-04</p>
+                </div>
+                <div class="imageHolder">
+                  <img src="images/image_5.jpeg" alt="image1">
+                  <p class="captionText">Caption Text-05</p>
+              </div>
+            </div>
+            <div id="dotsContainer"></div>
+        </div>
+        
+    
+    </div>
+    <div class="card_sec" >
+        <div class="card">
+            <img class="card_img" src="images/background-cards.jpg" alt="background">
+           
+              <h2>name</h2>
+              <p class="title">job-profile</p>
+              <p class="about_profile">
+                Bureau of Police Research & Development has been working for improvement in the delivery of police services, under the overall guidance of the Ministry of Home Affairs.
+              </p>
+              <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+  </section>
+
+  <div class="news_sec">
+      <div class="events_sec">
+        <div class="wrapper">
+          <div class="tabs">
+            <ul>
+              <li class="active">
+                <span class="icon">
+                  <i class="far fa-envelope"></i>
+                </span>
+                <span class="text">News</span>
+              </li>
+              <li>
+                <span class="icon">
+                  <i class="fas fa-sms"></i>
+                </span>
+                <span class="text">Press Release</span>
+              </li>
+              <li>
+                <span class="icon">
+                  <i class="fas fa-phone-alt"></i>
+                </span>
+                <span class="text">Tender</span>
+              </li>
+            
+            </ul>
+        </div>
+
+    <div class="content">
+      <div class="tab_wrap" style="display: block;">
+        <div class="title">News</div>
+        <div class="tab_content">
+          <div class=" notifications" id="Notification">
+            
+              <div class="notification_slider">
+                <div><a class="news_alerts" href="">Cyclone Amphan: How India is tackling Bay of Bengal's fiercest cyclone. </a> </div>
+                <div><a href="">Coronavirus update: Recovery rate in India nears 40% even as new cases spike</a> </div>
+                <div><a href=""> In large-cap equities, is alpha generation a zero-sum game?</a></div>
+                <div><a href="">Ola to fire 1,400 employees as revenue down by 95% in 2 months</a> </div>
+                <div><a class="news_alerts"  href="">Cyclone Amphan: How India is tackling Bay of Bengal's fiercest cyclone. </a> </div>
+                <div><a href="">Coronavirus update: Recovery rate in India nears 40% even as new cases spike</a> </div>
+                <div><a class="news_alerts" href=""> In large-cap equities, is alpha generation a zero-sum game?</a></div>
+                <div><a href="">Ola to fire 1,400 employees as revenue down by 95% in 2 months</a> </div>
+          
+              </div>
+            </div>          
+        </div>
+      </div>
+      <div class="tab_wrap" style="display: none;">
+        <div class="title">Press Release</div>
+        <div class="tab_content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem inventore perspiciatis alias, magni provident nulla recusandae odio consequatur praesentium officia non voluptate voluptatum debitis consequuntur omnis incidunt fuga eaque sit aliquam nemo. Recusandae voluptatibus excepturi, voluptates inventore nulla aliquid porro a asperiores beatae quas quo incidunt at, cumque minima officiis error eius dignissimos animi ullam unde odit! Nobis aut animi quibusdam molestias libero, facere vel cum atque incidunt esse! Libero ipsam praesentium sit, enim corrupti quia nobis obcaecati nostrum voluptatem totam nulla delectus ipsa facilis optio quis iure unde repudiandae voluptas temporibus, ad veritatis dolorem, culpa maiores. Dicta, quod neque.</p>
+        </div>
+      </div>
+      <div class="tab_wrap" style="display: none;">
+        <div class="title">Tender</div>
+        <div class="tab_content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem inventore perspiciatis alias, magni provident nulla recusandae odio consequatur praesentium officia non voluptate voluptatum debitis consequuntur omnis incidunt fuga eaque sit aliquam nemo. Recusandae voluptatibus excepturi, voluptates inventore nulla aliquid porro a asperiores beatae quas quo incidunt at, cumque minima officiis error eius dignissimos animi ullam unde odit! Nobis aut animi quibusdam molestias libero, facere vel cum atque incidunt esse! Libero ipsam praesentium sit, enim corrupti quia nobis obcaecati nostrum voluptatem totam nulla delectus ipsa facilis optio quis iure unde repudiandae voluptas temporibus, ad veritatis dolorem, culpa maiores. Dicta, quod neque.</p>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+  </div>
+
+   
+    <div class="photo-section"> 
+        <div class="gallery_photos">
+        <img src="images/background-feeds.jpg" alt="">
+      </div>
+          <a href="#" class="btn">View More</a>
+        
+    </div>
+</div>
+
+
+
+<div class="about_us" id="about_us">
+  <div class="container">
+      <div class="map subcontainer">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54066.38205265574!2d76.50565560662558!3d32.11928138076231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3904b3e0d1e63ac9%3A0x11046afda32dfd59!2sPalampur%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1589732921765!5m2!1sen!2sin" 
+        allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    
+
+      </div>
+      <div class="usefull-links  subcontainer">
+          
+         <h3>Use Full Links</h3>
+        <ul>
+          <li><a href="#">Site Map</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Screen Reader Access</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Website Policy</a></li>
+        </ul>
+        </div>
+       <div class="address subcontainer">
+          <h3>Address</h3>
+          <div class="addresss">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>  data<br>
+                  data<br>
+                  data<br>
+              </p>
+          </div>
+        </div>
+  </div>           
+</div>
+
+<footer>
+  
+  <div class="container">
+    <div class="sub_container">
+      
+      <img class="footer_logo" src="images/logo.jpg" alt="logo image">
+  </div>
+    <div class="sub_container ">
+        <h2>Quick Links</h2>
+        <ul class="links">
+            <li><a href="#">Site Map</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Screen Reader Access</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Website Policy</a></li>
+        </ul>
+    </div>
+    <div class="sub_container">
+        <h2>Last Updated</h2>
+         <ul class="links">
+            <li><a href="#">data</a></li>
+            <li><a href="#">data</a></li>
+            <li><a href="#">data</a></li>
+            <li><a href="#">data</a></li>                    
+        </ul>
+    </div>
+    
+  
+    <div class="sub_container follow">
+        <h2>Follow US</h2>
+      
+        <ul>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+        </ul>
+    </div>
+  </div>
+  
+  </footer>   
+  <div class="footer_bottom">
+      <p>&copy;2020 _____, Inc. <a href="#">Privacy </a> <a href="#">Policy Terms</a> </p>
+  </div> 
+   
+     <script src="js/index.js"></script> 
+</body>
+</html>
